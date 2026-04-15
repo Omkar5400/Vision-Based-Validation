@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Large Data Files (JD focus on "high-speed crash video data")
+*.mp4
+*.mov
+*.avi
+dataset/
+images/
+masks/
+
+# AI Model Weights (Keep the repo light)
+*.pth
+*.h5
+*.weights
+
+# OS specific files
+.DS_Store
+Thumbs.db
